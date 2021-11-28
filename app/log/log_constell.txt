@@ -1,0 +1,16 @@
+------------------------------2021-08-23 16:43:51------------------------------
+model:MsmcNet_RML2016
+dataset_name:RML2016.04c
+num_classes:11
+num_epoch:10000
+learning_rate:0.01
+signal_len:128,2
+iter_smooth:5
+------------------------------2021-10-13 16:08:04------------------------------
+model:MsmcNet_RML2016
+dataset_name:RML2016.04c
+num_classes:11
+num_epoch:10
+learning_rate:0.01
+signal_len:128,2
+iter_smooth:5

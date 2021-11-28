@@ -1,23 +1,14 @@
-# ///////////////////////////////////////////////////////////////
-#
-# BY: WANDERSON M.PIMENTA
-# PROJECT MADE WITH: Qt Designer and PySide6
-# V: 1.0.0
-#
-# This project can be used freely for all uses, as long as they maintain the
-# respective credits only in the Python scripts, any information in the visual
-# interface (GUI) can be modified without any implication.
-#
-# There are limitations on Qt licenses if you want to use your products
-# commercially, I recommend reading them on the official website:
-# https://doc.qt.io/qtforpython/licenses.html
-#
-# ///////////////////////////////////////////////////////////////
+# -*- coding: utf-8 -*-
 
-# IMPORT QT CORE
-# ///////////////////////////////////////////////////////////////
+################################################################################
+## Form generated from reading UI file 'left_columnaCMBcS.ui'
+##
+## Created by: Qt User Interface Compiler version 6.2.1
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
 from qt_core import *
-
 
 class Ui_LeftColumn(object):
     def setupUi(self, LeftColumn):
@@ -44,6 +35,11 @@ class Ui_LeftColumn(object):
         self.btn_1_layout.setSpacing(0)
         self.btn_1_layout.setObjectName(u"btn_1_layout")
         self.btn_1_layout.setContentsMargins(0, 0, 0, 0)
+        self.label = QLabel(self.btn_1_widget)
+        self.label.setObjectName(u"label")
+
+        self.btn_1_layout.addWidget(self.label)
+
 
         self.verticalLayout.addWidget(self.btn_1_widget)
 
@@ -58,16 +54,13 @@ class Ui_LeftColumn(object):
 
         self.verticalLayout.addWidget(self.btn_2_widget)
 
-        self.btn_3_widget = QWidget(self.menu_1)
-        self.btn_3_widget.setObjectName(u"btn_3_widget")
-        self.btn_3_widget.setMinimumSize(QSize(0, 40))
-        self.btn_3_widget.setMaximumSize(QSize(16777215, 40))
-        self.btn_3_layout = QVBoxLayout(self.btn_3_widget)
-        self.btn_3_layout.setSpacing(0)
-        self.btn_3_layout.setObjectName(u"btn_3_layout")
-        self.btn_3_layout.setContentsMargins(0, 0, 0, 0)
+        self.label_4 = QLabel(self.menu_1)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setMinimumSize(QSize(0, 0))
+        self.label_4.setMaximumSize(QSize(16777215, 4))
+        self.label_4.setFrameShape(QFrame.HLine)
 
-        self.verticalLayout.addWidget(self.btn_3_widget)
+        self.verticalLayout.addWidget(self.label_4)
 
         self.label_1 = QLabel(self.menu_1)
         self.label_1.setObjectName(u"label_1")
@@ -131,6 +124,8 @@ class Ui_LeftColumn(object):
 
     def retranslateUi(self, LeftColumn):
         LeftColumn.setWindowTitle(QCoreApplication.translate("LeftColumn", u"Form", None))
+        self.label.setText(QCoreApplication.translate("LeftColumn", u"<html><head/><body><p align=\"center\"><span style=\" font-size:16pt; font-weight:700;\">\u6df7\u6dc6\u77e9\u9635\u5f52\u4e00\u5316</span></p></body></html>", None))
+        self.label_4.setText("")
         self.label_1.setText(QCoreApplication.translate("LeftColumn", u"Menu 1 - Left Menu", None))
         self.label_2.setText(QCoreApplication.translate("LeftColumn", u"Menu 2 - Left Menu", None))
         self.label_3.setText(QCoreApplication.translate("LeftColumn", u"This is just an example menu.\n"

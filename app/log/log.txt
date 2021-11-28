@@ -1,0 +1,546 @@
+------------------------------2021-06-14 16:35:49------------------------------
+model:MsmcNet_RML2016
+dataset_name:RML2016.10a
+num_classes:11
+num_epoch:100
+learning_rate:0.01
+signal_len:128*2
+iter_smooth:5
+Epoch [1/100], Iter [5/5], lr: 0.010000, Loss: 2.2451, top1: 14.3636
+Epoch [1/100], Val_Loss: 2.4248, Val_top1: 9.3273, val_time: 5.6445 s
+Epoch [2/100], Iter [5/5], lr: 0.010000, Loss: 1.8785, top1: 26.1818
+Epoch [2/100], Val_Loss: 1.7333, Val_top1: 31.5636, val_time: 5.4470 s
+Epoch [3/100], Iter [5/5], lr: 0.010000, Loss: 1.7517, top1: 33.0909
+Epoch [3/100], Val_Loss: 2.2471, Val_top1: 19.9091, val_time: 5.4604 s
+Epoch [4/100], Iter [5/5], lr: 0.010000, Loss: 1.5282, top1: 36.7273
+Epoch [4/100], Val_Loss: 2.1674, Val_top1: 30.0727, val_time: 5.5282 s
+Epoch [5/100], Iter [5/5], lr: 0.010000, Loss: 1.4490, top1: 36.5455
+Epoch [5/100], Val_Loss: 2.7159, Val_top1: 31.0182, val_time: 5.7023 s
+Epoch [6/100], Iter [5/5], lr: 0.010000, Loss: 1.4326, top1: 37.2727
+Epoch [6/100], Val_Loss: 3.6955, Val_top1: 27.9273, val_time: 5.9271 s
+Epoch [7/100], Iter [5/5], lr: 0.010000, Loss: 1.2981, top1: 43.8182
+Epoch [7/100], Val_Loss: 2.7095, Val_top1: 34.1273, val_time: 6.3121 s
+Epoch [8/100], Iter [5/5], lr: 0.010000, Loss: 1.2583, top1: 43.8182
+Epoch [8/100], Val_Loss: 1.2627, Val_top1: 44.0182, val_time: 6.6153 s
+Epoch [9/100], Iter [5/5], lr: 0.010000, Loss: 1.2149, top1: 45.2727
+Epoch [9/100], Val_Loss: 1.4148, Val_top1: 44.3091, val_time: 6.2932 s
+Epoch [10/100], Iter [5/5], lr: 0.010000, Loss: 1.2550, top1: 44.7273
+Epoch [10/100], Val_Loss: 1.2350, Val_top1: 48.4545, val_time: 6.1605 s
+Epoch [11/100], Iter [5/5], lr: 0.010000, Loss: 1.2395, top1: 45.6364
+Epoch [11/100], Val_Loss: 1.8284, Val_top1: 37.2909, val_time: 6.3636 s
+Epoch [12/100], Iter [5/5], lr: 0.010000, Loss: 1.1290, top1: 49.6364
+Epoch [12/100], Val_Loss: 1.3447, Val_top1: 45.6364, val_time: 6.5043 s
+Epoch [13/100], Iter [5/5], lr: 0.010000, Loss: 1.3445, top1: 46.3636
+Epoch [13/100], Val_Loss: 3.0388, Val_top1: 37.3091, val_time: 6.2209 s
+Epoch [14/100], Iter [5/5], lr: 0.010000, Loss: 1.2060, top1: 43.8182
+Epoch [14/100], Val_Loss: 1.8681, Val_top1: 38.4364, val_time: 6.1855 s
+Epoch [15/100], Iter [5/5], lr: 0.010000, Loss: 1.0659, top1: 48.9091
+Epoch [15/100], Val_Loss: 1.6705, Val_top1: 38.8545, val_time: 6.2702 s
+Epoch [16/100], Iter [5/5], lr: 0.010000, Loss: 1.0537, top1: 52.5455
+Epoch [16/100], Val_Loss: 1.0679, Val_top1: 52.2182, val_time: 6.4648 s
+------------------------------2021-06-14 16:50:51------------------------------
+model:MsmcNet_RML2016
+dataset_name:RML2016.10a
+num_classes:11
+num_epoch:100
+learning_rate:0.01
+signal_len:128*2
+iter_smooth:5
+Epoch [1/100], Iter [5/5], lr: 0.010000, Loss: 2.2000, top1: 14.3636
+Epoch [1/100], Val_Loss: 2.2042, Val_top1: 12.0909, val_time: 5.5512 s
+------------------------------2021-06-14 21:14:19------------------------------
+model:MsmcNet_RML2016
+dataset_name:RML2016.04c
+num_classes:11
+num_epoch:10000
+learning_rate:0.01
+signal_len:128*2
+iter_smooth:5
+------------------------------2021-06-14 21:15:05------------------------------
+model:MsmcNet_RML2016
+dataset_name:RML2016.04c
+num_classes:11
+num_epoch:10000
+learning_rate:0.01
+signal_len:128*2
+iter_smooth:5
+------------------------------2021-06-14 21:20:31------------------------------
+model:MsmcNet_RML2016
+dataset_name:RML2016.04c
+num_classes:11
+num_epoch:10000
+learning_rate:0.01
+signal_len:128*2
+iter_smooth:5
+------------------------------2021-06-14 21:21:46------------------------------
+model:MsmcNet_RML2016
+dataset_name:RML2016.04c
+num_classes:11
+num_epoch:10000
+learning_rate:0.01
+signal_len:128*2
+iter_smooth:5
+------------------------------2021-06-14 21:22:14------------------------------
+model:MsmcNet_RML2016
+dataset_name:RML2016.04c
+num_classes:11
+num_epoch:10000
+learning_rate:0.01
+signal_len:128*2
+iter_smooth:5
+Epoch [1/10000], Iter [5/5], lr: 0.010000, Loss: 2.2105, top1: 15.4545
+Epoch [1/10000], Val_Loss: 2.3396, Val_top1: 15.2101, val_time: 6.4193 s, max_val_acc: 15.210137
+Epoch [2/10000], Iter [5/5], lr: 0.010000, Loss: 2.0460, top1: 25.0909
+Epoch [2/10000], Val_Loss: 1.9555, Val_top1: 27.9891, val_time: 5.9581 s, max_val_acc: 27.989136
+Epoch [3/10000], Iter [5/5], lr: 0.010000, Loss: 1.7611, top1: 33.4545
+Epoch [3/10000], Val_Loss: 1.6698, Val_top1: 38.2038, val_time: 6.0508 s, max_val_acc: 38.203804
+------------------------------2021-06-14 21:32:13------------------------------
+model:MsmcNet_RML2016
+dataset_name:RML2016.04c
+num_classes:11
+num_epoch:10000
+learning_rate:0.01
+signal_len:128*2
+iter_smooth:5
+Epoch [1/10000], Iter [5/5], lr: 0.010000, Loss: 2.1515, top1: 20.1818
+Epoch [1/10000], Val_Loss: 2.0242, Val_top1: 28.1197, val_time: 5.9471 s, max_val_acc: 28.119745
+Epoch [2/10000], Iter [5/5], lr: 0.010000, Loss: 1.7691, top1: 33.4545
+Epoch [2/10000], Val_Loss: 2.4897, Val_top1: 14.5804, val_time: 6.0764 s, max_val_acc: 28.119745
+Epoch [3/10000], Iter [5/5], lr: 0.010000, Loss: 1.7039, top1: 34.1818
+Epoch [3/10000], Val_Loss: 1.9529, Val_top1: 20.1022, val_time: 6.0029 s, max_val_acc: 28.119745
+Epoch [4/10000], Iter [5/5], lr: 0.010000, Loss: 1.8828, top1: 31.6364
+Epoch [4/10000], Val_Loss: 1.6340, Val_top1: 41.1548, val_time: 5.8354 s, max_val_acc: 41.154793
+Epoch [5/10000], Iter [5/5], lr: 0.010000, Loss: 1.6365, top1: 36.9091
+Epoch [5/10000], Val_Loss: 1.5822, Val_top1: 37.4033, val_time: 6.2239 s, max_val_acc: 41.154793
+Epoch [6/10000], Iter [5/5], lr: 0.010000, Loss: 1.6149, top1: 37.0909
+Epoch [6/10000], Val_Loss: 1.6527, Val_top1: 38.3357, val_time: 6.4653 s, max_val_acc: 41.154793
+Epoch [7/10000], Iter [5/5], lr: 0.010000, Loss: 1.3791, top1: 44.3636
+Epoch [7/10000], Val_Loss: 2.0593, Val_top1: 32.6652, val_time: 7.2745 s, max_val_acc: 41.154793
+------------------------------2021-06-14 21:33:48------------------------------
+model:MsmcNet_RML2016
+dataset_name:RML2016.04c
+num_classes:11
+num_epoch:10000
+learning_rate:0.01
+signal_len:128*2
+iter_smooth:5
+Epoch [1/10000], Iter [5/5], lr: 0.010000, Loss: 2.2100, top1: 16.1818
+Epoch [1/10000], Val_Loss: 2.4356, Val_top1: 15.2994, val_time: 6.9245 s, max_val_acc: 15.299366
+Epoch [2/10000], Iter [5/5], lr: 0.010000, Loss: 1.9928, top1: 27.4545
+Epoch [2/10000], Val_Loss: 1.9752, Val_top1: 30.5987, val_time: 7.2569 s, max_val_acc: 30.598736
+Epoch [3/10000], Iter [5/5], lr: 0.010000, Loss: 1.7512, top1: 32.7273
+Epoch [3/10000], Val_Loss: 2.0804, Val_top1: 22.8941, val_time: 6.9903 s, max_val_acc: 30.598736
+Epoch [4/10000], Iter [5/5], lr: 0.010000, Loss: 1.5850, top1: 35.6364
+Epoch [4/10000], Val_Loss: 1.7864, Val_top1: 34.5959, val_time: 6.6512 s, max_val_acc: 34.595894
+Epoch [5/10000], Iter [5/5], lr: 0.010000, Loss: 1.5924, top1: 35.6364
+------------------------------2021-06-14 21:35:27------------------------------
+model:MsmcNet_RML2016
+dataset_name:RML2016.04c
+num_classes:11
+num_epoch:10000
+learning_rate:0.01
+signal_len:128*2
+iter_smooth:5
+Epoch [1/10000], Iter [5/5], lr: 0.010000, Loss: 2.1771, top1: 18.5455
+Epoch [1/10000], Val_Loss: 2.1184, Val_top1: 12.8967, val_time: 5.7512 s, max_val_acc: 12.896679
+Epoch [2/10000], Iter [5/5], lr: 0.010000, Loss: 1.9426, top1: 28.9091
+Epoch [2/10000], Val_Loss: 1.8348, Val_top1: 29.4336, val_time: 5.7167 s, max_val_acc: 29.433598
+Epoch [3/10000], Iter [5/5], lr: 0.010000, Loss: 1.8675, top1: 30.3636
+Epoch [3/10000], Val_Loss: 1.7148, Val_top1: 27.3969, val_time: 5.8021 s, max_val_acc: 29.433598
+Epoch [4/10000], Iter [5/5], lr: 0.010000, Loss: 1.8072, top1: 29.8182
+Epoch [4/10000], Val_Loss: 1.6924, Val_top1: 31.2544, val_time: 6.8507 s, max_val_acc: 31.254366
+Epoch [5/10000], Iter [5/5], lr: 0.010000, Loss: 1.7277, top1: 33.4545
+Epoch [5/10000], Val_Loss: 1.7365, Val_top1: 28.2478, val_time: 6.4866 s, max_val_acc: 31.254366
+Epoch [6/10000], Iter [5/5], lr: 0.010000, Loss: 1.6619, top1: 35.4545
+Epoch [6/10000], Val_Loss: 1.9789, Val_top1: 28.7275, val_time: 6.7275 s, max_val_acc: 31.254366
+Epoch [7/10000], Iter [5/5], lr: 0.010000, Loss: 1.5812, top1: 40.3636
+Epoch [7/10000], Val_Loss: 1.8312, Val_top1: 29.2422, val_time: 6.4717 s, max_val_acc: 31.254366
+Epoch [8/10000], Iter [5/5], lr: 0.010000, Loss: 1.4390, top1: 46.3636
+Epoch [8/10000], Val_Loss: 2.6052, Val_top1: 28.1314, val_time: 6.4872 s, max_val_acc: 31.254366
+Epoch [9/10000], Iter [5/5], lr: 0.010000, Loss: 1.2708, top1: 49.8182
+Epoch [9/10000], Val_Loss: 2.5596, Val_top1: 31.5221, val_time: 6.4946 s, max_val_acc: 31.522053
+Epoch [10/10000], Iter [5/5], lr: 0.010000, Loss: 1.2326, top1: 50.3636
+Epoch [10/10000], Val_Loss: 2.8897, Val_top1: 32.8902, val_time: 6.7021 s, max_val_acc: 32.890213
+Epoch [11/10000], Iter [5/5], lr: 0.010000, Loss: 1.1590, top1: 51.6364
+Epoch [11/10000], Val_Loss: 1.4740, Val_top1: 47.3658, val_time: 6.7559 s, max_val_acc: 47.365837
+Epoch [12/10000], Iter [5/5], lr: 0.010000, Loss: 1.2879, top1: 48.7273
+Epoch [12/10000], Val_Loss: 2.2608, Val_top1: 38.9668, val_time: 6.4168 s, max_val_acc: 47.365837
+Epoch [13/10000], Iter [5/5], lr: 0.010000, Loss: 1.1048, top1: 54.5455
+Epoch [13/10000], Val_Loss: 2.3772, Val_top1: 37.0141, val_time: 7.0471 s, max_val_acc: 47.365837
+Epoch [14/10000], Iter [5/5], lr: 0.010000, Loss: 1.0845, top1: 57.0909
+Epoch [14/10000], Val_Loss: 1.4901, Val_top1: 50.4940, val_time: 6.4308 s, max_val_acc: 50.493992
+Epoch [15/10000], Iter [5/5], lr: 0.010000, Loss: 1.0805, top1: 54.5455
+Epoch [15/10000], Val_Loss: 1.1826, Val_top1: 50.2897, val_time: 6.4687 s, max_val_acc: 50.493992
+Epoch [16/10000], Iter [5/5], lr: 0.010000, Loss: 1.0871, top1: 57.2727
+Epoch [16/10000], Val_Loss: 1.1106, Val_top1: 60.0673, val_time: 6.5814 s, max_val_acc: 60.067253
+Epoch [17/10000], Iter [5/5], lr: 0.010000, Loss: 1.0433, top1: 56.1818
+Epoch [17/10000], Val_Loss: 0.9835, Val_top1: 63.4062, val_time: 6.4268 s, max_val_acc: 63.406178
+Epoch [18/10000], Iter [5/5], lr: 0.010000, Loss: 0.9897, top1: 56.7273
+Epoch [18/10000], Val_Loss: 1.1061, Val_top1: 60.6349, val_time: 6.3959 s, max_val_acc: 63.406178
+Epoch [19/10000], Iter [5/5], lr: 0.010000, Loss: 0.9344, top1: 60.9091
+Epoch [19/10000], Val_Loss: 1.0050, Val_top1: 61.9760, val_time: 6.4727 s, max_val_acc: 63.406178
+Epoch [20/10000], Iter [5/5], lr: 0.010000, Loss: 0.9613, top1: 60.3636
+Epoch [20/10000], Val_Loss: 1.1781, Val_top1: 55.2670, val_time: 6.9574 s, max_val_acc: 63.406178
+------------------------------2021-07-09 16:51:36------------------------------
+model:MsmcNet_ACARS
+dataset_name:ACARS
+num_classes:20
+num_epoch:5000
+learning_rate:0.01
+signal_len:4096, 2
+iter_smooth:5
+------------------------------2021-07-09 16:55:00------------------------------
+model:MsmcNet_ACARS
+dataset_name:ACARS
+num_classes:20
+num_epoch:5000
+learning_rate:0.01
+signal_len:4096, 2
+iter_smooth:5
+------------------------------2021-07-09 16:56:00------------------------------
+model:MsmcNet_ACARS
+dataset_name:ACARS
+num_classes:20
+num_epoch:5000
+learning_rate:0.01
+signal_len:4096, 2
+iter_smooth:5
+------------------------------2021-07-09 16:57:17------------------------------
+model:MsmcNet_ACARS
+dataset_name:ACARS
+num_classes:20
+num_epoch:5000
+learning_rate:0.01
+signal_len:4096, 2
+iter_smooth:5
+------------------------------2021-07-09 17:01:23------------------------------
+model:MsmcNet_ACARS
+dataset_name:ACARS
+num_classes:20
+num_epoch:5000
+learning_rate:0.01
+signal_len:4096, 2
+iter_smooth:5
+------------------------------2021-07-09 17:01:48------------------------------
+model:MsmcNet_ACARS
+dataset_name:ACARS
+num_classes:20
+num_epoch:5000
+learning_rate:0.01
+signal_len:4096, 2
+iter_smooth:5
+Epoch [1/5000], Iter [5/50], lr: 0.010000, Loss: 9.6421, top1: 5.0000
+Epoch [1/5000], Iter [10/50], lr: 0.010000, Loss: 6.0693, top1: 5.0000
+Epoch [1/5000], Iter [15/50], lr: 0.010000, Loss: 3.4768, top1: 4.0000
+Epoch [1/5000], Iter [20/50], lr: 0.010000, Loss: 3.0396, top1: 5.0000
+Epoch [1/5000], Iter [25/50], lr: 0.010000, Loss: 3.0591, top1: 7.0000
+Epoch [1/5000], Iter [30/50], lr: 0.010000, Loss: 2.9619, top1: 9.0000
+Epoch [1/5000], Iter [35/50], lr: 0.010000, Loss: 2.9821, top1: 7.0000
+Epoch [1/5000], Iter [40/50], lr: 0.010000, Loss: 3.0640, top1: 6.0000
+Epoch [1/5000], Iter [45/50], lr: 0.010000, Loss: 2.9501, top1: 8.0000
+Epoch [1/5000], Iter [50/50], lr: 0.010000, Loss: 2.9886, top1: 6.0000
+------------------------------2021-07-09 17:03:07------------------------------
+model:MsmcNet_ACARS
+dataset_name:ACARS
+num_classes:20
+num_epoch:5000
+learning_rate:0.01
+signal_len:4096, 2
+iter_smooth:10
+Epoch [1/5000], Iter [10/50], lr: 0.010000, Loss: 7.2436, top1: 8.0000
+Epoch [1/5000], Iter [20/50], lr: 0.010000, Loss: 3.3053, top1: 4.5000
+Epoch [1/5000], Iter [30/50], lr: 0.010000, Loss: 2.9982, top1: 3.0000
+Epoch [1/5000], Iter [40/50], lr: 0.010000, Loss: 3.0032, top1: 2.5000
+Epoch [1/5000], Iter [50/50], lr: 0.010000, Loss: 2.9577, top1: 6.5000
+Epoch [1/5000], Val_Loss: 2.9534, Val_top1: 8.0000, val_time: 9.1208 s, max_val_acc: 8.000000
+Epoch [2/5000], Iter [10/50], lr: 0.010000, Loss: 3.2205, top1: 9.0000
+Epoch [2/5000], Iter [20/50], lr: 0.010000, Loss: 3.7258, top1: 4.5000
+Epoch [2/5000], Iter [30/50], lr: 0.010000, Loss: 3.0258, top1: 1.5000
+Epoch [2/5000], Iter [40/50], lr: 0.010000, Loss: 3.0256, top1: 4.5000
+Epoch [2/5000], Iter [50/50], lr: 0.010000, Loss: 3.0165, top1: 4.5000
+Epoch [3/5000], Iter [10/50], lr: 0.010000, Loss: 3.0544, top1: 5.0000
+Epoch [3/5000], Iter [20/50], lr: 0.010000, Loss: 3.2315, top1: 5.5000
+Epoch [3/5000], Iter [30/50], lr: 0.010000, Loss: 3.0435, top1: 9.0000
+Epoch [3/5000], Iter [40/50], lr: 0.010000, Loss: 3.0244, top1: 5.5000
+Epoch [3/5000], Iter [50/50], lr: 0.010000, Loss: 2.9923, top1: 4.5000
+Epoch [4/5000], Iter [10/50], lr: 0.010000, Loss: 3.2583, top1: 4.0000
+Epoch [4/5000], Iter [20/50], lr: 0.010000, Loss: 3.5218, top1: 5.0000
+Epoch [4/5000], Iter [30/50], lr: 0.010000, Loss: 3.1398, top1: 4.0000
+Epoch [4/5000], Iter [40/50], lr: 0.010000, Loss: 2.9904, top1: 3.5000
+Epoch [4/5000], Iter [50/50], lr: 0.010000, Loss: 3.0625, top1: 4.5000
+Epoch [5/5000], Iter [10/50], lr: 0.010000, Loss: 2.9986, top1: 6.5000
+Epoch [5/5000], Iter [20/50], lr: 0.010000, Loss: 3.0702, top1: 3.0000
+Epoch [5/5000], Iter [30/50], lr: 0.010000, Loss: 3.0314, top1: 5.5000
+Epoch [5/5000], Iter [40/50], lr: 0.010000, Loss: 3.0021, top1: 4.0000
+Epoch [5/5000], Iter [50/50], lr: 0.010000, Loss: 3.0024, top1: 3.0000
+Epoch [6/5000], Iter [10/50], lr: 0.010000, Loss: 3.0067, top1: 6.0000
+Epoch [6/5000], Iter [20/50], lr: 0.010000, Loss: 3.0357, top1: 4.0000
+Epoch [6/5000], Iter [30/50], lr: 0.010000, Loss: 3.0120, top1: 5.0000
+Epoch [6/5000], Iter [40/50], lr: 0.010000, Loss: 3.0078, top1: 5.0000
+Epoch [6/5000], Iter [50/50], lr: 0.010000, Loss: 3.0070, top1: 5.5000
+Epoch [6/5000], Val_Loss: 3.0613, Val_top1: 5.3000, val_time: 10.1299 s, max_val_acc: 8.000000
+Epoch [7/5000], Iter [10/50], lr: 0.010000, Loss: 3.0002, top1: 5.5000
+Epoch [7/5000], Iter [20/50], lr: 0.010000, Loss: 2.9701, top1: 5.5000
+Epoch [7/5000], Iter [30/50], lr: 0.010000, Loss: 3.0358, top1: 2.0000
+Epoch [7/5000], Iter [40/50], lr: 0.010000, Loss: 3.0432, top1: 3.5000
+Epoch [7/5000], Iter [50/50], lr: 0.010000, Loss: 3.0037, top1: 2.5000
+Epoch [8/5000], Iter [10/50], lr: 0.010000, Loss: 2.9969, top1: 6.5000
+Epoch [8/5000], Iter [20/50], lr: 0.010000, Loss: 3.0496, top1: 5.5000
+Epoch [8/5000], Iter [30/50], lr: 0.010000, Loss: 3.0066, top1: 3.0000
+Epoch [8/5000], Iter [40/50], lr: 0.010000, Loss: 3.0156, top1: 3.0000
+Epoch [8/5000], Iter [50/50], lr: 0.010000, Loss: 3.0061, top1: 3.0000
+Epoch [9/5000], Iter [10/50], lr: 0.010000, Loss: 3.0049, top1: 4.5000
+Epoch [9/5000], Iter [20/50], lr: 0.010000, Loss: 3.0458, top1: 2.5000
+Epoch [9/5000], Iter [30/50], lr: 0.010000, Loss: 3.0059, top1: 6.5000
+Epoch [9/5000], Iter [40/50], lr: 0.010000, Loss: 3.0092, top1: 1.5000
+Epoch [9/5000], Iter [50/50], lr: 0.010000, Loss: 3.0029, top1: 4.5000
+------------------------------2021-07-09 17:26:15------------------------------
+model:MsmcNet_ACARS
+dataset_name:ACARS
+num_classes:20
+num_epoch:5000
+learning_rate:0.01
+signal_len:4096, 2
+iter_smooth:10
+Epoch [1/5000], Iter [10/100], lr: 0.010000, Loss: 9.0484, top1: 2.5000
+Epoch [1/5000], Iter [20/100], lr: 0.010000, Loss: 3.0604, top1: 4.0000
+Epoch [1/5000], Iter [30/100], lr: 0.010000, Loss: 3.0429, top1: 3.0000
+Epoch [1/5000], Iter [40/100], lr: 0.010000, Loss: 3.0341, top1: 4.0000
+Epoch [1/5000], Iter [50/100], lr: 0.010000, Loss: 2.9937, top1: 3.5000
+Epoch [1/5000], Iter [60/100], lr: 0.010000, Loss: 3.0277, top1: 2.0000
+Epoch [1/5000], Iter [70/100], lr: 0.010000, Loss: 2.9991, top1: 7.0000
+Epoch [1/5000], Iter [80/100], lr: 0.010000, Loss: 2.9989, top1: 4.5000
+Epoch [1/5000], Iter [90/100], lr: 0.010000, Loss: 3.0095, top1: 3.0000
+Epoch [1/5000], Iter [100/100], lr: 0.010000, Loss: 2.9995, top1: 3.5000
+Epoch [1/5000], Val_Loss: 2.9952, Val_top1: 5.0500, val_time: 12.0598 s, max_val_acc: 5.050000
+Epoch [2/5000], Iter [10/100], lr: 0.010000, Loss: 3.2885, top1: 6.0000
+Epoch [2/5000], Iter [20/100], lr: 0.010000, Loss: 3.2336, top1: 8.5000
+Epoch [2/5000], Iter [30/100], lr: 0.010000, Loss: 3.0140, top1: 4.5000
+Epoch [2/5000], Iter [40/100], lr: 0.010000, Loss: 2.9906, top1: 7.0000
+Epoch [2/5000], Iter [50/100], lr: 0.010000, Loss: 3.0230, top1: 5.0000
+Epoch [2/5000], Iter [60/100], lr: 0.010000, Loss: 2.9975, top1: 5.5000
+Epoch [2/5000], Iter [70/100], lr: 0.010000, Loss: 3.0583, top1: 4.5000
+Epoch [2/5000], Iter [80/100], lr: 0.010000, Loss: 3.0111, top1: 4.5000
+Epoch [2/5000], Iter [90/100], lr: 0.010000, Loss: 2.9925, top1: 5.5000
+------------------------------2021-07-25 14:24:35------------------------------
+model:MsmcNet_ACARS
+dataset_name:ACARS
+num_classes:20
+num_epoch:5
+learning_rate:0.01
+signal_len:4096, 2
+iter_smooth:10
+Epoch [1/5], Iter [10/2000], lr: 0.010000, Loss: 0.0475, top1: 100.0000
+Epoch [1/5], Iter [20/2000], lr: 0.010000, Loss: 1.7896, top1: 50.0000
+Epoch [1/5], Iter [30/2000], lr: 0.010000, Loss: 2.5026, top1: 30.0000
+Epoch [1/5], Iter [40/2000], lr: 0.010000, Loss: 4.8723, top1: 10.0000
+Epoch [1/5], Iter [50/2000], lr: 0.010000, Loss: 2.5850, top1: 30.0000
+Epoch [1/5], Iter [60/2000], lr: 0.010000, Loss: 2.8128, top1: 10.0000
+Epoch [1/5], Iter [70/2000], lr: 0.010000, Loss: 2.3017, top1: 50.0000
+Epoch [1/5], Iter [80/2000], lr: 0.010000, Loss: 4.1602, top1: 10.0000
+Epoch [1/5], Iter [90/2000], lr: 0.010000, Loss: 2.9173, top1: 10.0000
+Epoch [1/5], Iter [100/2000], lr: 0.010000, Loss: 2.9300, top1: 30.0000
+Epoch [1/5], Iter [110/2000], lr: 0.010000, Loss: 2.7709, top1: 40.0000
+Epoch [1/5], Iter [120/2000], lr: 0.010000, Loss: 2.9686, top1: 40.0000
+Epoch [1/5], Iter [130/2000], lr: 0.010000, Loss: 3.1905, top1: 30.0000
+Epoch [1/5], Iter [140/2000], lr: 0.010000, Loss: 2.7357, top1: 0.0000
+Epoch [1/5], Iter [150/2000], lr: 0.010000, Loss: 2.9208, top1: 20.0000
+Epoch [1/5], Iter [160/2000], lr: 0.010000, Loss: 3.2227, top1: 0.0000
+Epoch [1/5], Iter [170/2000], lr: 0.010000, Loss: 2.8658, top1: 0.0000
+Epoch [1/5], Iter [180/2000], lr: 0.010000, Loss: 2.4668, top1: 20.0000
+Epoch [1/5], Iter [190/2000], lr: 0.010000, Loss: 2.9840, top1: 10.0000
+Epoch [1/5], Iter [200/2000], lr: 0.010000, Loss: 2.8178, top1: 40.0000
+Epoch [1/5], Iter [210/2000], lr: 0.010000, Loss: 3.3141, top1: 0.0000
+Epoch [1/5], Iter [220/2000], lr: 0.010000, Loss: 2.4112, top1: 20.0000
+Epoch [1/5], Iter [230/2000], lr: 0.010000, Loss: 2.7675, top1: 10.0000
+Epoch [1/5], Iter [240/2000], lr: 0.010000, Loss: 3.1981, top1: 10.0000
+Epoch [1/5], Iter [250/2000], lr: 0.010000, Loss: 2.5962, top1: 20.0000
+Epoch [1/5], Iter [260/2000], lr: 0.010000, Loss: 2.4366, top1: 40.0000
+Epoch [1/5], Iter [270/2000], lr: 0.010000, Loss: 2.6379, top1: 0.0000
+Epoch [1/5], Iter [280/2000], lr: 0.010000, Loss: 2.9960, top1: 0.0000
+Epoch [1/5], Iter [290/2000], lr: 0.010000, Loss: 2.6288, top1: 10.0000
+Epoch [1/5], Iter [300/2000], lr: 0.010000, Loss: 2.6960, top1: 10.0000
+Epoch [1/5], Iter [310/2000], lr: 0.010000, Loss: 2.9714, top1: 10.0000
+Epoch [1/5], Iter [320/2000], lr: 0.010000, Loss: 2.9946, top1: 20.0000
+Epoch [1/5], Iter [330/2000], lr: 0.010000, Loss: 2.5657, top1: 20.0000
+Epoch [1/5], Iter [340/2000], lr: 0.010000, Loss: 3.1409, top1: 0.0000
+Epoch [1/5], Iter [350/2000], lr: 0.010000, Loss: 2.5298, top1: 20.0000
+Epoch [1/5], Iter [360/2000], lr: 0.010000, Loss: 2.4540, top1: 40.0000
+Epoch [1/5], Iter [370/2000], lr: 0.010000, Loss: 2.3939, top1: 20.0000
+Epoch [1/5], Iter [380/2000], lr: 0.010000, Loss: 3.0171, top1: 10.0000
+Epoch [1/5], Iter [390/2000], lr: 0.010000, Loss: 2.1845, top1: 40.0000
+Epoch [1/5], Iter [400/2000], lr: 0.010000, Loss: 2.3529, top1: 20.0000
+Epoch [1/5], Iter [410/2000], lr: 0.010000, Loss: 2.8837, top1: 10.0000
+Epoch [1/5], Iter [420/2000], lr: 0.010000, Loss: 2.7013, top1: 20.0000
+Epoch [1/5], Iter [430/2000], lr: 0.010000, Loss: 2.3381, top1: 20.0000
+Epoch [1/5], Iter [440/2000], lr: 0.010000, Loss: 2.2907, top1: 30.0000
+Epoch [1/5], Iter [450/2000], lr: 0.010000, Loss: 3.1781, top1: 0.0000
+Epoch [1/5], Iter [460/2000], lr: 0.010000, Loss: 2.8166, top1: 20.0000
+Epoch [1/5], Iter [470/2000], lr: 0.010000, Loss: 2.8274, top1: 10.0000
+Epoch [1/5], Iter [480/2000], lr: 0.010000, Loss: 2.3130, top1: 30.0000
+Epoch [1/5], Iter [490/2000], lr: 0.010000, Loss: 4.3054, top1: 0.0000
+Epoch [1/5], Iter [500/2000], lr: 0.010000, Loss: 3.0108, top1: 0.0000
+Epoch [1/5], Iter [510/2000], lr: 0.010000, Loss: 3.1688, top1: 10.0000
+Epoch [1/5], Iter [520/2000], lr: 0.010000, Loss: 3.0373, top1: 10.0000
+Epoch [1/5], Iter [530/2000], lr: 0.010000, Loss: 3.2810, top1: 0.0000
+Epoch [1/5], Iter [540/2000], lr: 0.010000, Loss: 2.7575, top1: 20.0000
+Epoch [1/5], Iter [550/2000], lr: 0.010000, Loss: 2.9632, top1: 0.0000
+Epoch [1/5], Iter [560/2000], lr: 0.010000, Loss: 2.7770, top1: 20.0000
+Epoch [1/5], Iter [570/2000], lr: 0.010000, Loss: 2.9982, top1: 0.0000
+Epoch [1/5], Iter [580/2000], lr: 0.010000, Loss: 2.7568, top1: 20.0000
+Epoch [1/5], Iter [590/2000], lr: 0.010000, Loss: 3.3853, top1: 10.0000
+Epoch [1/5], Iter [600/2000], lr: 0.010000, Loss: 2.9813, top1: 10.0000
+Epoch [1/5], Iter [610/2000], lr: 0.010000, Loss: 3.1032, top1: 0.0000
+Epoch [1/5], Iter [620/2000], lr: 0.010000, Loss: 2.7114, top1: 20.0000
+Epoch [1/5], Iter [630/2000], lr: 0.010000, Loss: 2.9583, top1: 20.0000
+Epoch [1/5], Iter [640/2000], lr: 0.010000, Loss: 3.2192, top1: 10.0000
+Epoch [1/5], Iter [650/2000], lr: 0.010000, Loss: 3.2677, top1: 10.0000
+Epoch [1/5], Iter [660/2000], lr: 0.010000, Loss: 3.0241, top1: 0.0000
+Epoch [1/5], Iter [670/2000], lr: 0.010000, Loss: 3.7705, top1: 10.0000
+Epoch [1/5], Iter [680/2000], lr: 0.010000, Loss: 3.0984, top1: 0.0000
+Epoch [1/5], Iter [690/2000], lr: 0.010000, Loss: 3.0739, top1: 10.0000
+Epoch [1/5], Iter [700/2000], lr: 0.010000, Loss: 2.9360, top1: 10.0000
+Epoch [1/5], Iter [710/2000], lr: 0.010000, Loss: 3.1415, top1: 0.0000
+Epoch [1/5], Iter [720/2000], lr: 0.010000, Loss: 2.9331, top1: 0.0000
+Epoch [1/5], Iter [730/2000], lr: 0.010000, Loss: 3.0465, top1: 0.0000
+Epoch [1/5], Iter [740/2000], lr: 0.010000, Loss: 3.0921, top1: 10.0000
+Epoch [1/5], Iter [750/2000], lr: 0.010000, Loss: 2.9784, top1: 0.0000
+Epoch [1/5], Iter [760/2000], lr: 0.010000, Loss: 2.9955, top1: 10.0000
+Epoch [1/5], Iter [770/2000], lr: 0.010000, Loss: 3.0542, top1: 0.0000
+Epoch [1/5], Iter [780/2000], lr: 0.010000, Loss: 3.0418, top1: 20.0000
+Epoch [1/5], Iter [790/2000], lr: 0.010000, Loss: 3.0594, top1: 0.0000
+Epoch [1/5], Iter [800/2000], lr: 0.010000, Loss: 3.0220, top1: 0.0000
+Epoch [1/5], Iter [810/2000], lr: 0.010000, Loss: 3.1025, top1: 0.0000
+Epoch [1/5], Iter [820/2000], lr: 0.010000, Loss: 2.9511, top1: 10.0000
+------------------------------2021-07-25 14:25:40------------------------------
+model:MsmcNet_ACARS
+dataset_name:ACARS
+num_classes:20
+num_epoch:5
+learning_rate:0.01
+signal_len:4096, 2
+iter_smooth:10
+Epoch [1/5], Iter [10/2000], lr: 0.010000, Loss: 13.4621, top1: 10.0000
+Epoch [1/5], Iter [20/2000], lr: 0.010000, Loss: 23.0482, top1: 10.0000
+Epoch [1/5], Iter [30/2000], lr: 0.010000, Loss: 15.8087, top1: 10.0000
+Epoch [1/5], Iter [40/2000], lr: 0.010000, Loss: 10.3233, top1: 0.0000
+Epoch [1/5], Iter [50/2000], lr: 0.010000, Loss: 5.8000, top1: 10.0000
+Epoch [1/5], Iter [60/2000], lr: 0.010000, Loss: 3.3644, top1: 0.0000
+Epoch [1/5], Iter [70/2000], lr: 0.010000, Loss: 3.3241, top1: 0.0000
+Epoch [1/5], Iter [80/2000], lr: 0.010000, Loss: 3.6556, top1: 0.0000
+Epoch [1/5], Iter [90/2000], lr: 0.010000, Loss: 2.9533, top1: 0.0000
+Epoch [1/5], Iter [100/2000], lr: 0.010000, Loss: 3.0251, top1: 0.0000
+Epoch [1/5], Iter [110/2000], lr: 0.010000, Loss: 3.2721, top1: 10.0000
+Epoch [1/5], Iter [120/2000], lr: 0.010000, Loss: 3.2454, top1: 0.0000
+Epoch [1/5], Iter [130/2000], lr: 0.010000, Loss: 3.2630, top1: 0.0000
+Epoch [1/5], Iter [140/2000], lr: 0.010000, Loss: 3.2536, top1: 0.0000
+Epoch [1/5], Iter [150/2000], lr: 0.010000, Loss: 2.9469, top1: 0.0000
+Epoch [1/5], Iter [160/2000], lr: 0.010000, Loss: 3.1382, top1: 10.0000
+Epoch [1/5], Iter [170/2000], lr: 0.010000, Loss: 3.0338, top1: 0.0000
+Epoch [1/5], Iter [180/2000], lr: 0.010000, Loss: 3.0558, top1: 0.0000
+Epoch [1/5], Iter [190/2000], lr: 0.010000, Loss: 3.0148, top1: 0.0000
+Epoch [1/5], Iter [200/2000], lr: 0.010000, Loss: 2.8330, top1: 20.0000
+Epoch [1/5], Iter [210/2000], lr: 0.010000, Loss: 3.3327, top1: 10.0000
+Epoch [1/5], Iter [220/2000], lr: 0.010000, Loss: 3.2481, top1: 0.0000
+Epoch [1/5], Iter [230/2000], lr: 0.010000, Loss: 3.0718, top1: 10.0000
+Epoch [1/5], Iter [240/2000], lr: 0.010000, Loss: 3.1571, top1: 0.0000
+Epoch [1/5], Iter [250/2000], lr: 0.010000, Loss: 3.2649, top1: 0.0000
+Epoch [1/5], Iter [260/2000], lr: 0.010000, Loss: 3.0538, top1: 0.0000
+Epoch [1/5], Iter [270/2000], lr: 0.010000, Loss: 3.4219, top1: 0.0000
+Epoch [1/5], Iter [280/2000], lr: 0.010000, Loss: 2.9338, top1: 0.0000
+Epoch [1/5], Iter [290/2000], lr: 0.010000, Loss: 3.8058, top1: 0.0000
+Epoch [1/5], Iter [300/2000], lr: 0.010000, Loss: 3.1446, top1: 10.0000
+Epoch [1/5], Iter [310/2000], lr: 0.010000, Loss: 3.0139, top1: 10.0000
+Epoch [1/5], Iter [320/2000], lr: 0.010000, Loss: 3.1141, top1: 20.0000
+Epoch [1/5], Iter [330/2000], lr: 0.010000, Loss: 2.9368, top1: 10.0000
+Epoch [1/5], Iter [340/2000], lr: 0.010000, Loss: 3.4849, top1: 10.0000
+Epoch [1/5], Iter [350/2000], lr: 0.010000, Loss: 3.4977, top1: 0.0000
+Epoch [1/5], Iter [360/2000], lr: 0.010000, Loss: 2.9934, top1: 0.0000
+Epoch [1/5], Iter [370/2000], lr: 0.010000, Loss: 2.9946, top1: 0.0000
+Epoch [1/5], Iter [380/2000], lr: 0.010000, Loss: 3.1971, top1: 0.0000
+Epoch [1/5], Iter [390/2000], lr: 0.010000, Loss: 3.0165, top1: 10.0000
+Epoch [1/5], Iter [400/2000], lr: 0.010000, Loss: 2.9921, top1: 0.0000
+Epoch [1/5], Iter [410/2000], lr: 0.010000, Loss: 2.9632, top1: 0.0000
+Epoch [1/5], Iter [420/2000], lr: 0.010000, Loss: 3.2446, top1: 10.0000
+Epoch [1/5], Iter [430/2000], lr: 0.010000, Loss: 2.9579, top1: 0.0000
+Epoch [1/5], Iter [440/2000], lr: 0.010000, Loss: 3.0964, top1: 0.0000
+Epoch [1/5], Iter [450/2000], lr: 0.010000, Loss: 2.9892, top1: 10.0000
+Epoch [1/5], Iter [460/2000], lr: 0.010000, Loss: 2.9441, top1: 0.0000
+Epoch [1/5], Iter [470/2000], lr: 0.010000, Loss: 2.9691, top1: 0.0000
+Epoch [1/5], Iter [480/2000], lr: 0.010000, Loss: 2.9581, top1: 0.0000
+Epoch [1/5], Iter [490/2000], lr: 0.010000, Loss: 3.1852, top1: 10.0000
+Epoch [1/5], Iter [500/2000], lr: 0.010000, Loss: 3.7164, top1: 10.0000
+Epoch [1/5], Iter [510/2000], lr: 0.010000, Loss: 3.1223, top1: 0.0000
+Epoch [1/5], Iter [520/2000], lr: 0.010000, Loss: 3.0696, top1: 0.0000
+Epoch [1/5], Iter [530/2000], lr: 0.010000, Loss: 3.0314, top1: 0.0000
+Epoch [1/5], Iter [540/2000], lr: 0.010000, Loss: 2.9178, top1: 0.0000
+Epoch [1/5], Iter [550/2000], lr: 0.010000, Loss: 3.2125, top1: 0.0000
+Epoch [1/5], Iter [560/2000], lr: 0.010000, Loss: 3.0931, top1: 0.0000
+Epoch [1/5], Iter [570/2000], lr: 0.010000, Loss: 3.0600, top1: 10.0000
+Epoch [1/5], Iter [580/2000], lr: 0.010000, Loss: 2.9447, top1: 10.0000
+Epoch [1/5], Iter [590/2000], lr: 0.010000, Loss: 3.3026, top1: 0.0000
+Epoch [1/5], Iter [600/2000], lr: 0.010000, Loss: 3.0673, top1: 10.0000
+Epoch [1/5], Iter [610/2000], lr: 0.010000, Loss: 2.9443, top1: 30.0000
+Epoch [1/5], Iter [620/2000], lr: 0.010000, Loss: 3.0864, top1: 0.0000
+Epoch [1/5], Iter [630/2000], lr: 0.010000, Loss: 3.2327, top1: 0.0000
+Epoch [1/5], Iter [640/2000], lr: 0.010000, Loss: 3.1147, top1: 10.0000
+Epoch [1/5], Iter [650/2000], lr: 0.010000, Loss: 3.0012, top1: 0.0000
+Epoch [1/5], Iter [660/2000], lr: 0.010000, Loss: 3.0167, top1: 0.0000
+Epoch [1/5], Iter [670/2000], lr: 0.010000, Loss: 3.0566, top1: 10.0000
+Epoch [1/5], Iter [680/2000], lr: 0.010000, Loss: 3.7113, top1: 0.0000
+Epoch [1/5], Iter [690/2000], lr: 0.010000, Loss: 2.9891, top1: 10.0000
+Epoch [1/5], Iter [700/2000], lr: 0.010000, Loss: 3.0686, top1: 0.0000
+Epoch [1/5], Iter [710/2000], lr: 0.010000, Loss: 3.0005, top1: 0.0000
+Epoch [1/5], Iter [720/2000], lr: 0.010000, Loss: 3.0268, top1: 10.0000
+Epoch [1/5], Iter [730/2000], lr: 0.010000, Loss: 3.2551, top1: 10.0000
+Epoch [1/5], Iter [740/2000], lr: 0.010000, Loss: 3.0862, top1: 10.0000
+Epoch [1/5], Iter [750/2000], lr: 0.010000, Loss: 2.9884, top1: 0.0000
+Epoch [1/5], Iter [760/2000], lr: 0.010000, Loss: 3.0144, top1: 20.0000
+Epoch [1/5], Iter [770/2000], lr: 0.010000, Loss: 3.1048, top1: 0.0000
+Epoch [1/5], Iter [780/2000], lr: 0.010000, Loss: 3.0346, top1: 0.0000
+Epoch [1/5], Iter [790/2000], lr: 0.010000, Loss: 2.9923, top1: 0.0000
+Epoch [1/5], Iter [800/2000], lr: 0.010000, Loss: 3.0566, top1: 10.0000
+Epoch [1/5], Iter [810/2000], lr: 0.010000, Loss: 2.9465, top1: 20.0000
+Epoch [1/5], Iter [820/2000], lr: 0.010000, Loss: 2.9670, top1: 0.0000
+Epoch [1/5], Iter [830/2000], lr: 0.010000, Loss: 3.1290, top1: 10.0000
+Epoch [1/5], Iter [840/2000], lr: 0.010000, Loss: 3.2675, top1: 0.0000
+Epoch [1/5], Iter [850/2000], lr: 0.010000, Loss: 2.8987, top1: 20.0000
+Epoch [1/5], Iter [860/2000], lr: 0.010000, Loss: 3.1785, top1: 0.0000
+Epoch [1/5], Iter [870/2000], lr: 0.010000, Loss: 2.9494, top1: 0.0000
+Epoch [1/5], Iter [880/2000], lr: 0.010000, Loss: 3.3212, top1: 10.0000
+Epoch [1/5], Iter [890/2000], lr: 0.010000, Loss: 3.0762, top1: 0.0000
+Epoch [1/5], Iter [900/2000], lr: 0.010000, Loss: 3.0461, top1: 0.0000
+Epoch [1/5], Iter [910/2000], lr: 0.010000, Loss: 2.9895, top1: 0.0000
+Epoch [1/5], Iter [920/2000], lr: 0.010000, Loss: 2.9634, top1: 20.0000
+Epoch [1/5], Iter [930/2000], lr: 0.010000, Loss: 3.0417, top1: 10.0000
+Epoch [1/5], Iter [940/2000], lr: 0.010000, Loss: 2.9781, top1: 0.0000
+Epoch [1/5], Iter [950/2000], lr: 0.010000, Loss: 2.9049, top1: 10.0000
+Epoch [1/5], Iter [960/2000], lr: 0.010000, Loss: 3.3294, top1: 0.0000
+------------------------------2021-07-25 14:26:53------------------------------
+model:MsmcNet_ACARS
+dataset_name:ACARS
+num_classes:20
+num_epoch:5
+learning_rate:0.01
+signal_len:4096, 2
+iter_smooth:10
+------------------------------2021-07-25 14:27:07------------------------------
+model:MsmcNet_ACARS
+dataset_name:ACARS
+num_classes:20
+num_epoch:5
+learning_rate:0.01
+signal_len:4096, 2
+iter_smooth:10
+Epoch [1/5], Iter [10/100], lr: 0.010000, Loss: 7.7122, top1: 4.0000
+Epoch [1/5], Iter [20/100], lr: 0.010000, Loss: 3.1773, top1: 6.0000
+Epoch [1/5], Iter [30/100], lr: 0.010000, Loss: 3.0097, top1: 8.0000
+Epoch [1/5], Iter [40/100], lr: 0.010000, Loss: 3.0007, top1: 4.0000
+Epoch [1/5], Iter [50/100], lr: 0.010000, Loss: 2.9984, top1: 7.0000
+Epoch [1/5], Iter [60/100], lr: 0.010000, Loss: 2.9892, top1: 5.0000
+Epoch [1/5], Iter [70/100], lr: 0.010000, Loss: 3.0054, top1: 4.0000
+Epoch [1/5], Iter [80/100], lr: 0.010000, Loss: 3.0381, top1: 4.0000
+Epoch [1/5], Iter [90/100], lr: 0.010000, Loss: 2.9975, top1: 3.5000
+Epoch [1/5], Iter [100/100], lr: 0.010000, Loss: 3.0070, top1: 4.0000
+Epoch [1/5], Val_Loss: 2.9963, Val_top1: 5.0000, val_time: 34.4532 s, max_val_acc: 5.000000
+Epoch [2/5], Iter [10/100], lr: 0.010000, Loss: 3.4318, top1: 2.0000

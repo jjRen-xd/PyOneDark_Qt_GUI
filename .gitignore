@@ -2,3 +2,6 @@ __pycache__/
 .vscode/
 .git/
 .pyc
+.history/
+/app/checkpoints/reinforce/model/
+/app/dataset/

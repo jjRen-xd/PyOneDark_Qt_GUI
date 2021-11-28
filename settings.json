@@ -1,13 +1,13 @@
 {
-    "app_name": "基于强化学习和知识迁移的电磁信号目标识别技术原理验证系统",
+    "app_name": "电磁信号识别研究验证系统",
     "version" : "v1.0.0",
     "copyright" : "Developed by: JunJie Ren; Powered by: Wanderson M. Pimenta",
     "year" : 2021,
-    "theme_name" : "default",
+    "theme_name" : "dracula",
     "custom_title_bar": true,
     "startup_size": [
-        960,
-        720
+        1400,
+        900
     ],
     "minimum_size": [
         960,
@@ -28,8 +28,9 @@
     },
     "time_animation" : 500,
     "font" : {
-        "family" : "Segoe UI",
-        "title_size" : 10,
+        "family" : "微软雅黑",
+        "title_size" : 12,
         "text_size" : 9
     }
+
 }

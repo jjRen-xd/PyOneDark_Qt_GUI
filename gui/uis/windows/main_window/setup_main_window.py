@@ -1,6 +1,6 @@
 # ///////////////////////////////////////////////////////////////
 #
-# BY: WANDERSON M.PIMENTA
+# BY: WANDERSON M.PIMENTA and Junjie Ren
 # PROJECT MADE WITH: Qt Designer and PySide6
 # V: 1.0.0
 #
@@ -20,6 +20,7 @@ from gui.widgets.py_table_widget.py_table_widget import PyTableWidget
 from . functions_main_window import *
 import sys
 import os
+import cv2
 
 # IMPORT QT CORE
 # ///////////////////////////////////////////////////////////////
@@ -62,51 +63,51 @@ class SetupMainWindow:
         {
             "btn_icon" : "icon_home.svg",
             "btn_id" : "btn_home",
-            "btn_text" : "Home",
-            "btn_tooltip" : "Home page",
+            "btn_text" : "主页",
+            "btn_tooltip" : "返回主页",
             "show_top" : True,
             "is_active" : True
         },
         {
-            "btn_icon" : "icon_widgets.svg",
-            "btn_id" : "btn_widgets",
-            "btn_text" : "Show Custom Widgets",
-            "btn_tooltip" : "Show custom widgets",
+            "btn_icon" : "icon_TL.svg",
+            "btn_id" : "btn_TL",
+            "btn_text" : "选择性知识迁移技术研究",
+            "btn_tooltip" : "转至迁移学习",
             "show_top" : True,
             "is_active" : False
         },
         {
-            "btn_icon" : "icon_add_user.svg",
-            "btn_id" : "btn_add_user",
-            "btn_text" : "Add Users",
-            "btn_tooltip" : "Add users",
+            "btn_icon" : "icon_OP.svg",
+            "btn_id" : "btn_OP",
+            "btn_text" : "网络模型优化方法研究",
+            "btn_tooltip" : "转至网络优化",
             "show_top" : True,
             "is_active" : False
         },
         {
-            "btn_icon" : "icon_file.svg",
-            "btn_id" : "btn_new_file",
-            "btn_text" : "New File",
-            "btn_tooltip" : "Create new file",
+            "btn_icon" : "icon_RL.svg",
+            "btn_id" : "btn_RL",
+            "btn_text" : "深度强化学习策略研究",
+            "btn_tooltip" : "转至强化学习",
             "show_top" : True,
             "is_active" : False
         },
         {
-            "btn_icon" : "icon_folder_open.svg",
-            "btn_id" : "btn_open_file",
-            "btn_text" : "Open File",
-            "btn_tooltip" : "Open file",
+            "btn_icon" : "icon_IN.svg",
+            "btn_id" : "btn_IN",
+            "btn_text" : "网络特征的可解释性研究",
+            "btn_tooltip" : "转至模型解释",
             "show_top" : True,
             "is_active" : False
         },
-        {
-            "btn_icon" : "icon_save.svg",
-            "btn_id" : "btn_save",
-            "btn_text" : "Save File",
-            "btn_tooltip" : "Save file",
-            "show_top" : True,
-            "is_active" : False
-        },
+        # {
+        #     "btn_icon" : "icon_save.svg",
+        #     "btn_id" : "btn_save",
+        #     "btn_text" : "Save File",
+        #     "btn_tooltip" : "Save file",
+        #     "show_top" : True,
+        #     "is_active" : False
+        # },
         {
             "btn_icon" : "icon_info.svg",
             "btn_id" : "btn_info",
@@ -128,12 +129,12 @@ class SetupMainWindow:
      # ADD TITLE BAR MENUS
     # ///////////////////////////////////////////////////////////////
     add_title_bar_menus = [
-        {
-            "btn_icon" : "icon_search.svg",
-            "btn_id" : "btn_search",
-            "btn_tooltip" : "Search",
-            "is_active" : False
-        },
+        # {
+        #     "btn_icon" : "icon_search.svg",
+        #     "btn_id" : "btn_search",
+        #     "btn_tooltip" : "Search",
+        #     "is_active" : False
+        # },
         {
             "btn_icon" : "icon_settings.svg",
             "btn_id" : "btn_top_settings",
@@ -209,7 +210,7 @@ class SetupMainWindow:
 
         # SET INITIAL PAGE / SET LEFT AND RIGHT COLUMN MENUS
         # ///////////////////////////////////////////////////////////////
-        MainFunctions.set_page(self, self.ui.load_pages.page_1)
+        MainFunctions.set_page(self, self.ui.load_pages.page_home)
         MainFunctions.set_left_column_menu(
             self,
             menu = self.ui.left_column.menus.menu_1,
@@ -249,37 +250,29 @@ class SetupMainWindow:
         # LEFT COLUMN
         # ///////////////////////////////////////////////////////////////
 
-        # BTN 1
-        self.left_btn_1 = PyPushButton(
-            text="Btn 1",
-            radius=8,
-            color=self.themes["app_color"]["text_foreground"],
-            bg_color=self.themes["app_color"]["dark_one"],
-            bg_color_hover=self.themes["app_color"]["dark_three"],
-            bg_color_pressed=self.themes["app_color"]["dark_four"]
+        # # BTN 1
+        # self.left_btn_1 = PyPushButton(
+        #     text="Btn With Icon",
+        #     radius=8,
+        #     color=self.themes["app_color"]["text_foreground"],
+        #     bg_color=self.themes["app_color"]["dark_one"],
+        #     bg_color_hover=self.themes["app_color"]["dark_three"],
+        #     bg_color_pressed=self.themes["app_color"]["dark_four"]
+        # )
+        # self.icon = QIcon(Functions.set_svg_icon("icon_settings.svg"))
+        # self.left_btn_1.setIcon(self.icon)
+        # self.left_btn_1.setMaximumHeight(40)
+        # self.ui.left_column.menus.btn_1_layout.addWidget(self.left_btn_1)
+
+        # TOGGLE BUTTON
+        self.toggle_mat_norm = PyToggle(
+            active_color = self.themes["app_color"]["context_color"],
+            bg_color = self.themes["app_color"]["dark_one"],
+            circle_color = self.themes["app_color"]["icon_color"],
+            width = 50
         )
-        self.left_btn_1.setMaximumHeight(40)
-        self.ui.left_column.menus.btn_1_layout.addWidget(self.left_btn_1)
-
-        # BTN 2
-        self.left_btn_2 = PyPushButton(
-            text="Btn With Icon",
-            radius=8,
-            color=self.themes["app_color"]["text_foreground"],
-            bg_color=self.themes["app_color"]["dark_one"],
-            bg_color_hover=self.themes["app_color"]["dark_three"],
-            bg_color_pressed=self.themes["app_color"]["dark_four"]
-        )
-        self.icon = QIcon(Functions.set_svg_icon("icon_settings.svg"))
-        self.left_btn_2.setIcon(self.icon)
-        self.left_btn_2.setMaximumHeight(40)
-        self.ui.left_column.menus.btn_2_layout.addWidget(self.left_btn_2)
-
-        # BTN 3 - Default QPushButton
-        self.left_btn_3 = QPushButton("Default QPushButton")
-        self.left_btn_3.setMaximumHeight(40)
-        self.ui.left_column.menus.btn_3_layout.addWidget(self.left_btn_3)
-
+        self.ui.toggle_mat_norm = self.toggle_mat_norm  # 关联到主界面
+        self.ui.left_column.menus.btn_2_layout.addWidget(self.toggle_mat_norm, Qt.AlignCenter, Qt.AlignCenter)
         # PAGES
         # ///////////////////////////////////////////////////////////////
 
@@ -290,10 +283,10 @@ class SetupMainWindow:
         # PAGE 2
         # CIRCULAR PROGRESS 1
         self.circular_progress_1 = PyCircularProgress(
-            value = 80,
+            value = 50.21,
             progress_color = self.themes["app_color"]["context_color"],
             text_color = self.themes["app_color"]["text_title"],
-            font_size = 14,
+            font_size = 24,
             bg_color = self.themes["app_color"]["dark_four"]
         )
         self.circular_progress_1.setFixedSize(200,200)
@@ -543,9 +536,207 @@ class SetupMainWindow:
         self.ui.load_pages.row_4_layout.addWidget(self.line_edit)
         self.ui.load_pages.row_5_layout.addWidget(self.table_widget)
 
+        ''' 网络优化，界面初始化，添加按钮和自定义控件'''
+        # 数据集展示按钮 1
+        # ////////////////////////////////////////////////////////////////////////
+        self.pushButton_op_data = PyPushButton(
+            text="选择",
+            radius=8,
+            color=self.themes["app_color"]["text_foreground"],
+            bg_color=self.themes["app_color"]["dark_one"],
+            bg_color_hover=self.themes["app_color"]["red"],
+            bg_color_pressed=self.themes["app_color"]["dark_four"]
+        )
+        self.icon = QIcon(Functions.set_svg_icon("icon_save.svg"))
+        self.pushButton_op_data.setIcon(self.icon)
+        self.pushButton_op_data.setMaximumHeight(40)
+        self.pushButton_op_data.setMinimumWidth(100)
+        self.ui.load_pages.layout_op_data_open.addWidget(self.pushButton_op_data)
+        # 按钮事件指定
+        self.pushButton_op_data.clicked.connect(lambda: self.pages_btn_clicked("optimize", "pushButton_op_data"))
+        # Baseline测试按钮 1
+        # ////////////////////////////////////////////////////////////////////////
+        self.pushButton_op_base_test = PyPushButton(
+            text="测试",
+            radius=8,
+            color=self.themes["app_color"]["text_foreground"],
+            bg_color=self.themes["app_color"]["dark_one"],
+            bg_color_hover=self.themes["app_color"]["red"],
+            bg_color_pressed=self.themes["app_color"]["dark_four"]
+        )
+        self.icon = QIcon(Functions.set_svg_icon("icon_widgets.svg"))
+        self.pushButton_op_base_test.setIcon(self.icon)
+        self.pushButton_op_base_test.setMaximumHeight(40)
+        self.pushButton_op_base_test.setMinimumWidth(100)
+        self.ui.load_pages.layout_op_test_base.addWidget(self.pushButton_op_base_test)
+        # 按钮事件指定
+        self.pushButton_op_base_test.clicked.connect(lambda: self.pages_btn_clicked("optimize", "pushButton_op_base_test"))
+        # 优化方法测试按钮 2
+        # ////////////////////////////////////////////////////////////////////////
+        self.pushButton_op_adv_test = PyPushButton(
+            text="测试",
+            radius=8,
+            color=self.themes["app_color"]["text_foreground"],
+            bg_color=self.themes["app_color"]["dark_one"],
+            bg_color_hover=self.themes["app_color"]["red"],
+            bg_color_pressed=self.themes["app_color"]["dark_four"]
+        )
+        self.icon = QIcon(Functions.set_svg_icon("icon_widgets.svg"))
+        self.pushButton_op_adv_test.setIcon(self.icon)
+        self.pushButton_op_adv_test.setMaximumHeight(40)
+        self.pushButton_op_adv_test.setMinimumWidth(100)
+        self.ui.load_pages.layout_op_test_adv.addWidget(self.pushButton_op_adv_test)
+        # 按钮事件指定
+        self.pushButton_op_adv_test.clicked.connect(lambda: self.pages_btn_clicked("optimize", "pushButton_op_adv_test"))
+        
+        # 准确率绘制
+        # ///////////////////////////////////////////////////////////////////////////
+        self.circular_progress_tl_acc_base = PyCircularProgress(
+            value = 00.00,
+            progress_color = self.themes["app_color"]["context_color"],
+            text_color = self.themes["app_color"]["text_title"],
+            font_size = 26,
+            bg_color = self.themes["app_color"]["dark_four"]
+        )
+        self.circular_progress_tl_acc_adv = PyCircularProgress(
+            value = 00.00,
+            progress_color = self.themes["app_color"]["context_color"],
+            text_color = self.themes["app_color"]["text_title"],
+            font_size = 26,
+            bg_color = self.themes["app_color"]["dark_four"]
+        )
+        self.circular_progress_tl_acc_base.setFixedSize(200,200)    # 大小设置
+        self.circular_progress_tl_acc_adv.setFixedSize(200,200)
+        self.ui.circular_progress_tl_acc_base = self.circular_progress_tl_acc_base  # 关联到主界面变量
+        self.ui.circular_progress_tl_acc_adv = self.circular_progress_tl_acc_adv  # 关联到主界面变量
+        self.ui.load_pages.layout_base_acc.addWidget(self.circular_progress_tl_acc_base) # 放置到主界面
+        self.ui.load_pages.layout_adv_acc.addWidget(self.circular_progress_tl_acc_adv)
+
+        ''' 迁移学习，界面初始化，添加按钮和自定义控件'''
+        # 直接训练测试按钮
+        # ///////////////////////////////////////////////////////////////
+        self.pushButton_tl_base_test = PyPushButton(
+            text="直接训练",
+            radius=8,
+            color=self.themes["app_color"]["text_foreground"],
+            bg_color=self.themes["app_color"]["dark_one"],
+            bg_color_hover=self.themes["app_color"]["red"],
+            bg_color_pressed=self.themes["app_color"]["dark_four"]
+        )
+        self.pushButton_tl_base_test.setMaximumHeight(60)
+        self.pushButton_tl_base_test.setMinimumHeight(40)
+        self.pushButton_tl_base_test.setMinimumWidth(100)
+        self.ui.load_pages.layout_tl_test_base.addWidget(self.pushButton_tl_base_test)
+        self.pushButton_tl_base_test.clicked.connect(lambda: self.pages_btn_clicked("transfer", "pushButton_tl_base_test"))
+        
+        # 优化方法测试按钮 2
+        # ////////////////////////////////////////////////////////////////////////
+        self.pushButton_tl_adv_test = PyPushButton(
+            text="迁移模型",
+            radius=8,
+            color=self.themes["app_color"]["text_foreground"],
+            bg_color=self.themes["app_color"]["dark_one"],
+            bg_color_hover=self.themes["app_color"]["red"],
+            bg_color_pressed=self.themes["app_color"]["dark_four"]
+        )
+        self.pushButton_tl_adv_test.setMaximumHeight(60)
+        self.pushButton_tl_adv_test.setMinimumHeight(40)
+        self.pushButton_tl_adv_test.setMinimumWidth(100)
+        self.ui.load_pages.layout_tl_test_adv.addWidget(self.pushButton_tl_adv_test)
+        self.pushButton_tl_adv_test.clicked.connect(lambda: self.pages_btn_clicked("transfer", "pushButton_tl_adv_test"))
+        
+        # 准确率绘制
+        # ///////////////////////////////////////////////////////////////////////////
+        self.circular_progress_op_acc_base = PyCircularProgress(
+            value = 00.00,
+            progress_color = self.themes["app_color"]["context_color"],
+            text_color = self.themes["app_color"]["text_title"],
+            font_size = 26,
+            bg_color = self.themes["app_color"]["dark_four"]
+        )
+        self.circular_progress_op_acc_adv = PyCircularProgress(
+            value = 00.00,
+            progress_color = self.themes["app_color"]["context_color"],
+            text_color = self.themes["app_color"]["text_title"],
+            font_size = 26,
+            bg_color = self.themes["app_color"]["dark_four"]
+        )
+        self.circular_progress_op_acc_base.setFixedSize(200,200)    # 大小设置
+        self.circular_progress_op_acc_adv.setFixedSize(200,200)
+        self.ui.circular_progress_op_acc_base = self.circular_progress_op_acc_base  # 关联到主界面变量
+        self.ui.circular_progress_op_acc_adv = self.circular_progress_op_acc_adv  # 关联到主界面变量
+        self.ui.load_pages.layout_op_acc_base.addWidget(self.circular_progress_op_acc_base, Qt.AlignCenter, Qt.AlignCenter) # 放置到主界面
+        self.ui.load_pages.layout_op_acc_adv.addWidget(self.circular_progress_op_acc_adv, Qt.AlignCenter, Qt.AlignCenter)
+
+        ''' 强化学习，界面初始化，添加按钮和自定义控件'''
+        # 直接训练测试按钮
+        # ///////////////////////////////////////////////////////////////
+        self.pushButton_rl_test = PyPushButton(
+            text="测试准确率",
+            radius=8,
+            color=self.themes["app_color"]["text_foreground"],
+            bg_color=self.themes["app_color"]["dark_one"],
+            bg_color_hover=self.themes["app_color"]["red"],
+            bg_color_pressed=self.themes["app_color"]["dark_four"]
+        )
+        self.pushButton_rl_test.setMaximumHeight(50)
+        self.pushButton_rl_test.setMinimumHeight(40)
+        self.pushButton_rl_test.setMinimumWidth(100)
+        self.pushButton_rl_test.setMaximumWidth(250)
+        self.ui.load_pages.layout_rl_test.addWidget(self.pushButton_rl_test)
+        self.pushButton_rl_test.clicked.connect(lambda: self.pages_btn_clicked("reinforce", "pushButton_rl_test"))
+        
+        # 下一个样本按钮
+        # ////////////////////////////////////////////////////////////////////////
+        self.pushButton_rl_next = PyPushButton(
+            text="下一个数据",
+            radius=8,
+            color=self.themes["app_color"]["text_foreground"],
+            bg_color=self.themes["app_color"]["dark_one"],
+            bg_color_hover=self.themes["app_color"]["red"],
+            bg_color_pressed=self.themes["app_color"]["dark_four"]
+        )
+        self.pushButton_rl_next.setMaximumHeight(50)
+        self.pushButton_rl_next.setMinimumHeight(40)
+        self.pushButton_rl_next.setMinimumWidth(100)
+        self.pushButton_rl_next.setMaximumWidth(120)
+        self.ui.load_pages.layout_rl_next.addWidget(self.pushButton_rl_next)
+        self.pushButton_rl_next.clicked.connect(lambda: self.pages_btn_clicked("reinforce", "pushButton_rl_next"))
+        # 准确率绘制
+        # ///////////////////////////////////////////////////////////////////////////
+        self.circular_progress_rl_acc = PyCircularProgress(
+            value = 00.00,
+            progress_color = self.themes["app_color"]["context_color"],
+            text_color = self.themes["app_color"]["text_title"],
+            font_size = 26,
+            bg_color = self.themes["app_color"]["dark_four"]
+        )
+        self.circular_progress_rl_acc.setFixedSize(200,200)    # 大小设置
+        self.ui.circular_progress_rl_acc = self.circular_progress_rl_acc  # 关联到主界面变量
+        self.ui.load_pages.layout_rl_acc.addWidget(self.circular_progress_rl_acc, Qt.AlignCenter, Qt.AlignCenter) # 放置到主界面
+
+
+        ''' 网络可解释，界面初始化，添加按钮和自定义控件'''
+        # 下一批次样本按钮
+        # ////////////////////////////////////////////////////////////////////////
+        self.pushButton_in_next = PyPushButton(
+            text="下一批数据",
+            radius=8,
+            color=self.themes["app_color"]["text_foreground"],
+            bg_color=self.themes["app_color"]["dark_one"],
+            bg_color_hover=self.themes["app_color"]["red"],
+            bg_color_pressed=self.themes["app_color"]["dark_four"]
+        )
+        self.pushButton_in_next.setMaximumHeight(50)
+        self.pushButton_in_next.setMinimumHeight(40)
+        self.pushButton_in_next.setMinimumWidth(100)
+        self.pushButton_in_next.setMaximumWidth(120)
+        self.ui.load_pages.layout_in_next.addWidget(self.pushButton_in_next)
+        self.pushButton_in_next.clicked.connect(lambda: self.pages_btn_clicked("interpretability", "pushButton_in_next"))
+
+    
         # RIGHT COLUMN
         # ///////////////////////////////////////////////////////////////
-
         # BTN 1
         self.right_btn_1 = PyPushButton(
             text="Show Menu 2",

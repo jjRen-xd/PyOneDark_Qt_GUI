@@ -1,6 +1,6 @@
 # ///////////////////////////////////////////////////////////////
 #
-# BY: WANDERSON M.PIMENTA
+# BY: WANDERSON M.PIMENTA and Junjie Ren
 # PROJECT MADE WITH: Qt Designer and PySide6
 # V: 1.0.0
 #
