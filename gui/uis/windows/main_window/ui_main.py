@@ -1,6 +1,6 @@
 # ///////////////////////////////////////////////////////////////
 #
-# BY: WANDERSON M.PIMENTA
+# BY: WANDERSON M.PIMENTA and Junjie Ren
 # PROJECT MADE WITH: Qt Designer and PySide6
 # V: 1.0.0
 #
@@ -194,7 +194,7 @@ class UI_MainWindow(object):
         # ADD CUSTOM TITLE BAR TO LAYOUT
         self.title_bar = PyTitleBar(
             parent,
-            logo_width = 100,
+            logo_width = 133,
             app_parent = self.central_widget,
             logo_image = "logo_top_100x22.svg",
             bg_color = self.themes["app_color"]["bg_two"],
@@ -231,6 +231,18 @@ class UI_MainWindow(object):
         # IMPORT MAIN PAGES TO CONTENT AREA
         self.load_pages = Ui_MainPages()
         self.load_pages.setupUi(self.content_area_left_frame)
+
+        # 新增后期需要更改参数的新建部件
+        '''模型优化'''
+        self.circular_progress_op_acc_base = PyCircularProgress()
+        self.circular_progress_op_acc_adv = PyCircularProgress()
+        '''迁移学习'''
+        self.circular_progress_tl_acc_base = PyCircularProgress()
+        self.circular_progress_tl_acc_adv = PyCircularProgress()
+        '''强化学习'''
+        self.circular_progress_rl_acc = PyCircularProgress()
+        '''整体'''
+        self.toggle_mat_norm = PyToggle()
 
         # RIGHT BAR
         self.right_column_frame = QFrame()
